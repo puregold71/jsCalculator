@@ -2,8 +2,12 @@ $(document).ready(function(){
 
 
     var expression = []
+    var isClicked = false
+
+
 
     $('.buttons').click(function(){
+        isClicked = true
         $('.operator').removeAttr('disabled') //enable operators after a number has been entered
             .css('background-color', 'red')
         var buttonText = $(this).val()
@@ -12,12 +16,13 @@ $(document).ready(function(){
     });
 
     $('.operator').click(function(){
+        if(isClicked == true){
         var buttonText = $(this).val();
         $('.operator').attr('disabled','disabled') //disable operator buttons to prevent back to back
             .css('background-color', 'gray')       //operators from being entered
         expression.push(buttonText)  //get button text
         $('#screen').html(expression); //display on screen
-
+        }
 
 
     });

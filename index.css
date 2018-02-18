@@ -88,17 +88,17 @@
 #screen {
     background-color: lightgray;
     height: 75px;
-    width: 280px;
+    width: 260px;
     margin: auto auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-width: 3;
-    border-color: black;
+    border-width: 5px;
     border-style: inset;
     text-align:right;
     font-size: 30px;
     line-height: 2.5;
-    padding: 5px
+    padding: 5px;
+    overflow: auto;
 
 
 

@@ -26,15 +26,14 @@
     color: white;
     font-size: 30px;
     line-height: 46px;
-    border-right-style: inset;
+    border-right-style: outset;
     border-right-color: white;
-    border-bottom-style: inset;
-    border-bottom-color: white;
+    border-bottom-style: outset;
     border-top-style: none;
     border-top-color: black;
     border-left-style: none;
     border-left-color: black;
-    border-width: 2px;
+    border-width: 3px;
 
 
 }
@@ -49,31 +48,27 @@
     color: white;
     font-size: 30px;
     line-height: 46px;
-    border-right-style: inset;
-    border-right-color: black;
-    border-bottom-style: inset;
-    border-bottom-color: black;
+    border-right-style: outset;
+    border-bottom-style: outset;
     border-top-style: none;
     border-top-color: red;
     border-left-style: none;
     border-left-color: red;
-    border-width: 2px;
+    border-width: 3px;
 }
 
 .equals {
     background-color: red;
     height:50px;
-    width: 120px;
+    width: 126px;
     margin: 10px 12px 10px 10px;
     border-radius: 10px;
     text-align: center;
     color: white;
     font-size: 30px;
     line-height: 46px;
-    border-right-style: inset;
-    border-right-color: black;
-    border-bottom-style: inset;
-    border-bottom-color: black;
+    border-right-style: outset;
+    border-bottom-style: outset;
     border-top-style: none;
     border-top-color: red;
     border-left-style: none;

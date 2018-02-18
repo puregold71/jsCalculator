@@ -1,5 +1,5 @@
 #calculator {
-    background: linear-gradient(silver, white, black);
+    background: linear-gradient(silver, white, gray);
     background-color: silver;
     height: 500px;
     width: 300px;
@@ -61,7 +61,7 @@
 }
 
 .equals {
-    background-color: pink;
+    background-color: red;
     height:50px;
     width: 120px;
     margin: 10px 12px 10px 10px;
